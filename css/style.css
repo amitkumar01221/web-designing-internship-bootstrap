@@ -1,0 +1,27 @@
+.img12{
+width: 80%;
+}
+.a{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    letter-spacing: 3px;
+    font-family: 'prague';
+}
+.b{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+.c{
+    width: 100%;
+    height: 500px;
+    background-image: url("/image/background.jpg");
+}
+/* {
+    background: url(https://pn-paul.netlify.app/image/img%20background.jpg);
+    width: 100%;
+    height: 500px;
+} */
