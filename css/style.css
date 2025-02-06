@@ -1,65 +1,96 @@
-.img12{
-width: 80%;
+.img12 {
+    width: 80%;
 }
-.a{
+
+.a {
     text-align: center;
     text-transform: uppercase;
     padding-top: 20px;
     letter-spacing: 3px;
     font-family: 'prague';
 }
-.b{
+
+.b {
     line-height: 35px;
     letter-spacing: 1px;
     word-spacing: 1px;
     padding-right: 5px;
     text-align: justify;
 }
-.c{
+
+.c {
     width: 100%;
     height: 500px;
     padding-top: 150px;
     margin-top: 14px;
     background-image: url("/image/background.jpg");
 }
+
 /* {
     background: url(https://pn-paul.netlify.app/image/img%20background.jpg);
     width: 100%;
     height: 500px;
 } */
- .d{
+.d {
     line-height: 35px;
     letter-spacing: 1px;
     word-spacing: 1px;
     padding-right: 5px;
 
- }
- .e{
+}
+
+.e {
     line-height: 40px;
     letter-spacing: 1px;
     word-spacing: 1px;
     padding-right: 5px;
     text-align: center;
     margin-top: 10px;
- }
- footer{
+}
+
+footer {
     background: #020306f0;
     padding: 50px;
     color: #fff;
 }
-footer.img123{
+
+footer.img123 {
     margin-top: 30px;
     width: 50%;
 }
-.h22{
+
+.h22 {
     font-family: 'prague';
     font-size: 2 rem;
     line-height: 50px;
     letter-spacing: 3px;
     color: #fff;
 }
-.p1{
+
+.p1 {
     font-size: 16px;
     line-height: 28px;
     letter-spacing: 1px;
+}
+
+.weblogo {
+    width: 65px;
+}
+
+.navbar {
+    background: #000000a6 !important;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.navbar-nav li:hover {
+    background: yellow;
 }
