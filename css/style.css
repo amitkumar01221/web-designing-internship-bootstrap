@@ -1,3 +1,25 @@
+.weblogo {
+    width: 65px;
+}
+
+.navbar{
+
+    background: #c64949a6!important;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.navbar-nav li:hover {
+    background: yellow;
+}
 .img12 {
     width: 80%;
 }
@@ -72,25 +94,18 @@ footer.img123 {
     line-height: 28px;
     letter-spacing: 1px;
 }
-
-.weblogo {
-    width: 65px;
+.moblogo{
+    display: none;
 }
+@media(max-width:768px){
+    .weblogo{
+        display: none;
+    }
+    .moblogo{
+        display: block;
 
-.navbar {
-    background: #000000a6 !important;
-}
-
-.navbar-nav li {
-    padding: 0 10px;
-}
-
-.navbar-nav li a {
-    color: #fff !important;
-    font-weight: 300;
-    font-size: 20px;
-}
-
-.navbar-nav li:hover {
-    background: yellow;
+    }
+    .navbar{
+        background: yellowgreen!important;
+    }
 }
