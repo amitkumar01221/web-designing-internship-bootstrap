@@ -109,3 +109,9 @@ footer.img123 {
         background: yellowgreen!important;
     }
 }
+.photos1{
+    background-image: url(https://pn-paul.netlify.app/image/YPAshok.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
