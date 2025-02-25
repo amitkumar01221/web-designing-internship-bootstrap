@@ -2,11 +2,9 @@
     width: 65px;
 }
 
-.navbar{
-
-    background: #c64949a6!important;
+.navbar {
+    background: #000000a6!important;
 }
-
 .navbar-nav li {
     padding: 0 10px;
 }

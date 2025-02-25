@@ -1,0 +1,77 @@
+.weblogo{
+    width:65px;
+}
+
+.navbar {
+    background: #000000a6!important;
+}
+  .navbar-nav li {
+    padding: 0 10px;
+  }
+  .navbar-nav li a {
+    color: #fff !important;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  /* .navbar-nav li:hover {
+      background: yellow;
+    } */
+    footer{
+        background: #020306f0;
+        padding: 50px;
+        color: #fff;
+    }
+    footer.img123{
+        margin-top: 30px;
+        width: 50%;
+    }
+    .h22{
+        font-family: 'prague';
+        font-size: 2 rem;
+        line-height: 50px;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+    .p1{
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 1px;
+    }
+    i{
+        font-size:38px;
+        padding:0px 5px;
+        color:rgb(160, 160, 5);
+    }
+    #ab{
+        color:white;
+    }
+    .imp{
+        color:rgb(212, 203, 203) !important;
+    }
+    .parent{
+        position: relative;
+    }
+    .text{
+        position:absolute;
+        top:50%;
+        left:40%;
+        color:white;
+        font-family: prague;
+    }
+    .ScrollStyle
+{
+    max-height: 550px;
+    overflow-y: scroll;
+}
+.go{
+    line-height: 20px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    margin-top: 20px;
+    font-weight: lighter;
+    padding-bottom: 12px;
+}
+a:hover{
+    background-color: orange;
+}
