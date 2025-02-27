@@ -10,19 +10,43 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <nav>
+    <nav class="navbar bg-dark navabar-dark navbar-expand-md fixed-top">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand">
+                <img src="./image/ff-logo-02.png" alt="" class="weblogo">
+                <img src="https://pn-paul.netlify.app/image/logo-for-mobile.png" alt="" class="moblogo">
+            </a>
+            <!--mobile view-->
+            <button class="navbar-toggler" data-bs-target="#ab" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--mobile view end-->
 
+            <!--menu div start-->
+
+            <div class="menu navbar-collapse collapse" id="ab">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="Brand.html" class="nav-link">Brand</a></li>
+                    <li><a href="Our Team.html" class="nav-link">Our Team</a></li>
+                    <li><a href="Press Release.html" class="nav-link">Press Release</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="career.html" class="nav-link">Carrers</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <img src="https://pn-paul.netlify.app/image/CONTACT-US.jpg" alt="" class="w-100">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <h1>send us message</h1><br>
-                <input type="text" placeholder="Name*"><br>
+                <input type="text" placeholder="Name*" class="form-control">
 
                 <input type="email" placeholder="Email*"><br>
 
