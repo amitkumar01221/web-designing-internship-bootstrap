@@ -20,3 +20,11 @@
 
 
 }
+.content4 p{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-weight: lighter;
+    font-size: 18px;
+    padding: 0 5px;
+}
