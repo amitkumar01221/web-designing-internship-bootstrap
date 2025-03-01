@@ -1,0 +1,22 @@
+.ourteamheader{
+    background: url("https://pn-paul.netlify.app/image/new-careers-1.jpg");
+    width: 100%;
+    height: 630px;
+    padding-top: 150px;
+    text-transform: uppercase;
+    background-position: center;
+    background-size: cover;
+}
+.ourteamheader h2{ 
+    text-align: center;
+    color: white;
+    margin-bottom: auto;
+    text-transform: uppercase; 
+       letter-spacing: 2px; 
+       font-size: 1.2cm;
+       font-size: 1.5cm;
+        margin-top: 4cm; 
+          font-family: prague; 
+
+
+}

@@ -1,8 +1,45 @@
 .carrerheader{
     background: url("https://pn-paul.netlify.app/image/new-careers-1.jpg");
     width: 100%;
-    height: 500px;
+    height: 630px;
     padding-top: 150px;
-    margin-top: 14px;
     text-transform: uppercase;
+    background-position: center;
+    background-size: cover;
+}
+.carrerheader h2{ 
+    text-align: center;
+    color: white;
+    margin-bottom: auto;
+    text-transform: uppercase; 
+       letter-spacing: 2px; 
+       font-size: 1.2cm;
+       font-size: 1.5cm;
+        margin-top: 4cm; 
+          font-family: prague; 
+
+
+}
+.content6 p{
+    letter-spacing: 1px;
+                word-spacing: 2px;
+                line-height: 25px;
+                font-weight: lighter;
+                font-size: 18px;
+}
+.content6 h4{
+    font-weight: 400;
+}
+.content5 h2{
+    text-transform: uppercase; 
+       letter-spacing: 2px; 
+       font-size: 1.2cm;
+}
+.content5 p{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-weight: lighter;
+    font-size: 18px;
+
 }
