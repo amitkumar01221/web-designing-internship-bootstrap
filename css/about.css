@@ -1,0 +1,7 @@
+.aboutheader{
+    background: url("https://pn-paul.netlify.app/image/ourimage.jpg");
+    width: 100%;
+    height: 500px;
+    padding-top: 150px;
+    text-transform: uppercase;
+}
