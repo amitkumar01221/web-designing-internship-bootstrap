@@ -1,0 +1,23 @@
+footer{
+    background-color: rgb(255, 139, 139);
+}
+.weblogo {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+.navbar{
+    background: #6363637b !important;
+
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+    text-decoration: none;
+}
+.navbar-nav li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+
+}

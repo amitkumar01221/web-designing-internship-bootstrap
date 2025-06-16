@@ -1,0 +1,81 @@
+footer{
+    background:linear-gradient(rgb(58, 57, 57),black);
+    color: white;
+}
+.weblogo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.navbar{
+    background: #6363637b !important;
+
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+    text-decoration: none;
+}
+.navbar-nav li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+
+}
+.moblogo{
+    display: none;
+}
+@media(max-width:768px){
+    .weblogo{
+        display: none;
+    }
+    .moblogo{
+        display: block;
+        height: 60px;
+
+
+    }
+    .navbar {
+        background: rgb(190, 189, 195,1) !important;
+    }
+    .navbar-nav li a{
+        text-transform: uppercase;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: large;
+        font-weight: 400;
+        letter-spacing: 1px;
+    font-family: sans-serif;
+    
+    }
+    .navbar-nav li:hover{
+        background-color: #FB5B21;
+    
+    }
+}
+.fevicon{
+    color: #FB5B21;
+  font-size: 40px;
+  margin-left: 3px;
+}
+.footerlogo{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+.footer h3{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #FB5B21;
+    font-size: xx-large;
+    font-weight: 600;
+}
+.footer .p1{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 30px;
+    text-align: center;
+    color: antiquewhite;
+}
